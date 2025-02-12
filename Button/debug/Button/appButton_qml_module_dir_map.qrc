@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Button">C:/TWISHAH/Docker/Button/debug/Button</file>
+
+  </qresource>
+</RCC>
