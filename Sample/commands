@@ -1,0 +1,6 @@
+cd /home/test/Projects/Sample/
+
+sudo docker build -t sample .
+
+test@CSGBTPLT565:~/Projects/Sample$ sudo docker run --rm --privileged -e DISPLAY=$DISPLAY -e XDG_RUNTIME_DIR=/tmp/runtime-root -v /tmp/.X11-unix:/tmp/.X11-unix sample
+
